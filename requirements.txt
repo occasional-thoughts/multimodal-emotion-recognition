@@ -1,0 +1,9 @@
+tensorflow==2.15.1
+numpy<2
+librosa
+spafe
+scikit-learn
+pandas
+h5py
+matplotlib
+natsort

@@ -1,0 +1,12 @@
+env/
+colab_bundle/iemocap_dataset.npz
+data/iemocap_dataset.npz
+data/iemocap_feats.npz
+baselines/TIM-Net_SER/Code/MFCC/*.npy
+baselines/TIM-Net_SER/Code/Test_Models/*/
+__pycache__/
+*.pyc
+system_e/app.log
+pip_e.log
+setup.log
+*.weights.h5
