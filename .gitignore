@@ -10,3 +10,4 @@ system_e/app.log
 pip_e.log
 setup.log
 *.weights.h5
+.DS_Store
