@@ -28,7 +28,7 @@ def spectrogram(sig, sr):
     S = librosa.amplitude_to_db(np.abs(librosa.stft(sig, n_fft=1024, hop_length=256)), ref=np.max)
     fig, ax = plt.subplots(figsize=(7, 2.6), dpi=110)
     librosa.display.specshow(S, sr=sr, hop_length=256, x_axis="time", y_axis="hz", ax=ax, cmap="magma")
-    ax.set_ylim(0, 4000); ax.set_title("Mel spectrogram (0-4 kHz)", fontsize=9)
+    ax.set_ylim(0, 4000); ax.set_title("STFT magnitude spectrogram (0-4 kHz, linear scale)", fontsize=9)
     fig.tight_layout()
     return fig
 

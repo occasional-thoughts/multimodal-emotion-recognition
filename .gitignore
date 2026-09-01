@@ -1,13 +1,29 @@
+# ---- Python / env ----
 env/
-colab_bundle/iemocap_dataset.npz
-data/iemocap_dataset.npz
-data/iemocap_feats.npz
-baselines/TIM-Net_SER/Code/MFCC/*.npy
-baselines/TIM-Net_SER/Code/Test_Models/*/
 __pycache__/
 *.pyc
-system_e/app.log
-pip_e.log
-setup.log
+
+# ---- IEMOCAP licensed data: MUST NOT be redistributed ----
+# The USC SAIL licence forbids passing the data "or derivatives thereof" to
+# others. Team members obtain it via their own approved request.
+data/iemocap_index.csv
+data/iemocap_dataset.npz
+data/iemocap_feats.npz
+colab_bundle/iemocap_dataset.npz
+system_e/demo_clips/
+*.wav
+*.npy
+*.npz
+
+# ---- trained model weights (derived from licensed data; shared via Drive) ----
+system_d/models/
 *.weights.h5
+baselines/TIM-Net_SER/Code/Test_Models/*/
+
+# ---- logs and scratch ----
+*.log
+system_d/logs_*.txt
+system_e/app.log
+setup.log
+pip_e.log
 .DS_Store
