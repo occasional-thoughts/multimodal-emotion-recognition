@@ -27,3 +27,9 @@ system_e/app.log
 setup.log
 pip_e.log
 .DS_Store
+
+# ---- third-party research code: cloned by scripts/fetch_baselines.sh ----
+# TIM-Net_SER is GPL-3.0; SelfCrossAttn has no licence. Neither is redistributed
+# here — both are fetched from their authors' own repositories.
+baselines/TIM-Net_SER/
+baselines/SelfCrossAttn/

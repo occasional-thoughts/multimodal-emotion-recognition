@@ -6,9 +6,15 @@ Dual-stream (audio + text) emotion recognition on IEMOCAP, 4-class
 ## Setup
 
 ```bash
-./setup.sh          # needs Python 3.11 — TF 2.15 does not support 3.13
-./env/bin/python ...
+./scripts/fetch_baselines.sh   # clones TIM-Net and SelfCrossAttn from their authors
+./setup.sh                     # needs Python 3.11 — TF 2.15 does not support 3.13
 ```
+
+Then see **DATA.md** — IEMOCAP is licensed and not included, so you will need
+your own approved copy before anything runs.
+
+Third-party code and the corpus are not redistributed here. See **CREDITS.md**
+for what this builds on and how to cite it.
 
 ## Research question
 
