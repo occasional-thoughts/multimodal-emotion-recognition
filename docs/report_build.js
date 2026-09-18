@@ -94,7 +94,7 @@ new Paragraph({ spacing: { after: 90 }, alignment: AlignmentType.CENTER,
 new Paragraph({ spacing: { after: 240 }, alignment: AlignmentType.CENTER,
   children: [new TextRun({ text: "Speech and Language Processing — Project Report", size: 21, italics: true, color: MUT })] }),
 new Paragraph({ spacing: { after: 60 }, alignment: AlignmentType.CENTER,
-  children: [new TextRun({ text: "Abisha Antony", size: 22 })] }),
+  children: [new TextRun({ text: "Antony Abisha A", size: 22 })] }),
 new Paragraph({ spacing: { after: 900 }, alignment: AlignmentType.CENTER,
   children: [new TextRun({ text: "[add remaining team members here]", size: 19, color: MUT, italics: true })] }),
 
