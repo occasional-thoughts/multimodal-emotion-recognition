@@ -33,3 +33,11 @@ pip_e.log
 # here — both are fetched from their authors' own repositories.
 baselines/TIM-Net_SER/
 baselines/SelfCrossAttn/
+
+# ---- coursework deliverables and local tooling: not part of the project ----
+docs/
+TEAM.md
+.claude/
+
+# macOS
+.DS_Store
